@@ -1,0 +1,144 @@
+body {
+  font-family: 'Barlow', sans-serif;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+  color: #40514E;
+}
+
+h1 {
+  color: #66BFBF;
+  line-height: 2;
+  margin-top: 50px;
+  margin-bottom: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.375rem;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Roboto', sans-serif;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: #EAF6F6;
+  border-width: 6px;
+  width: 4%;
+
+}
+
+/* Class Styles */
+.top_container {
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: white;
+
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 20px;
+}
+
+.skills {
+  margin: 50px 0 50px 0;
+}
+
+.contact-me {
+  margin-top: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  line-height: 2;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 0 auto;
+
+}
+.btn {
+	box-shadow: 0 1px 0 0 #11999e;
+	background:linear-gradient(to bottom, #66bfbf 5%, #11999e 100%);
+	background-color:#66bfbf;
+	border-radius:6px;
+	border:1px solid #11999e;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #11999e;
+  margin: 40px;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #11999e 5%, #66bfbf 100%);
+	background-color:#11999e;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+a {
+  color: #11999E;
+  margin: 10px;
+  text-decoration: none;
+}
+a:hover {
+  color: #EAF6F6;
+
+}
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+
+}
+.profile {
+  margin: 50px 0 50px 0;
+}
+
+.lancepic {
+  width: 20%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 250px;
+  top: 40px;
+}
+
+.graphic {
+  float: left;
+  margin-right: 30px;
+  width: 40%;
+}
+
+.project {
+  float: right;
+  margin-left: 30px;
+  width: 40%;
+}
